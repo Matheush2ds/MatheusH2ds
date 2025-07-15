@@ -64,8 +64,3 @@
   <img src="https://img.shields.io/badge/Node.js-1e1e28?style=for-the-badge&logo=node.js&logoColor=339933"/>
 </p>
 
----
-
-<p align="center">
-  <img src="https://github.com/MatheusH2ds/MatheusH2ds/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-</p>
