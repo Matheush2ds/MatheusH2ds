@@ -8,9 +8,9 @@
 
 [![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matheushenriqueds1223@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-henriquedev/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MatheusHenriqueDS)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Matheush2ds)
 
-![Profile Views](https://komarev.com/ghpvc/?username=MatheusHenriqueDS&color=58A6FF&style=flat-square&label=Visualizações+do+perfil)
+![Profile Views](https://komarev.com/ghpvc/?username=Matheush2ds&color=58A6FF&style=flat-square&label=Visualizações+do+perfil)
 
 </div>
 
@@ -27,7 +27,7 @@ public class MatheusHenrique {
     String   motto       = "Código limpo hoje, menos dor amanhã.";
 
     String getCurrentStatus() {
-        return "Aprendendo, construindo e evoluindo 🚀";
+        return "Aprendendo, construindo e evoluindo";
     }
 }
 ```
@@ -77,31 +77,12 @@ public class MatheusHenrique {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MatheusHenriqueDS&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_color=30363d&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatheusHenriqueDS&layout=donut&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9"/>
-
 </div>
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=MatheusHenriqueDS&theme=github-dark-blue&border=30363d&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=c9d1d9&dates=8b949e)
+![GitHub Streak](https://streak-stats.demolab.com?user=Matheush2ds&theme=github-dark-blue&border=30363d&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=c9d1d9&dates=8b949e)
 
 </div>
-
----
-
-## Contribuições
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MatheusHenriqueDS/MatheusHenriqueDS/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MatheusHenriqueDS/MatheusHenriqueDS/output/github-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/MatheusHenriqueDS/MatheusHenriqueDS/output/github-snake-dark.svg" />
-  </picture>
-</div>
-
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a6b9c,50:0a3d62,100:0d1117&height=100&section=footer"/>
 
 </div>
