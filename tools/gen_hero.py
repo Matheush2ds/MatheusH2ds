@@ -198,7 +198,7 @@ A(f'<line x1="330" y1="160" x2="870" y2="160" stroke="url(#ruleGrad)" stroke-wid
   f'dur="8s" repeatCount="indefinite"/></line>')
 
 A(f'<text x="{W/2}" y="191" font-family="{MONO}" font-size="15" letter-spacing="6.5" '
-  f'fill="{MUTED}">BACK-END DEVELOPER &#183; CS STUDENT &#183; CLEAN CODE</text>')
+  f'fill="{MUTED}">BACK-END DEVELOPER &#183; SYSTEMS ANALYST</text>')
 
 # status chip
 chip_y = 210
@@ -211,7 +211,7 @@ A(f'<circle cx="{W/2-118:.0f}" cy="{chip_y+16}" r="4.5" fill="#3fb950" opacity="
   f'<animate attributeName="r" values="4.5;10;4.5" dur="2.2s" repeatCount="indefinite"/>'
   f'<animate attributeName="opacity" values="0.55;0;0.55" dur="2.2s" repeatCount="indefinite"/></circle>')
 A(f'<text x="{W/2+14:.0f}" y="{chip_y+21}" font-family="{MONO}" font-size="12.5" '
-  f'letter-spacing="1.6" fill="{TEXT}">building &amp; shipping APIs</text>')
+  f'letter-spacing="1.6" fill="{TEXT}">BSc CS &#183; studying AI</text>')
 A('</g>')
 A('</g>')
 

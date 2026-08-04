@@ -37,14 +37,14 @@
 <text x="54.4" y="122.5" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="15.5">
 <tspan fill="#c9d1d9" xml:space="preserve">Matheus Henrique</tspan>
 <tspan fill="#8b949e" xml:space="preserve">  &#8226;  </tspan>
-<tspan fill="#a5d6ff" xml:space="preserve">Desenvolvedor</tspan>
+<tspan fill="#a5d6ff" xml:space="preserve">Developer</tspan>
 <tspan fill="#8b949e" xml:space="preserve"> &amp; </tspan>
-<tspan fill="#a5d6ff" xml:space="preserve">Analista de Sistemas</tspan>
+<tspan fill="#a5d6ff" xml:space="preserve">Systems Analyst</tspan>
 </text>
 </g>
 <g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08846;0.08996;0.86154;0.91538;1" dur="26.0s" repeatCount="indefinite" fill="freeze"/>
 <text x="54.4" y="149.0" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="15.5">
-<tspan fill="#8b949e" xml:space="preserve">Bacharel em Ci&#234;ncia da Computa&#231;&#227;o  &#8226;  p&#243;s em Intelig&#234;ncia Artificial</tspan>
+<tspan fill="#8b949e" xml:space="preserve">BSc in Computer Science  &#8226;  postgrad in Artificial Intelligence</tspan>
 </text>
 </g>
 <g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.13077;0.13227;0.86154;0.91538;1" dur="26.0s" repeatCount="indefinite" fill="freeze"/>
@@ -103,7 +103,7 @@
 <g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.36346;0.36496;0.86154;0.91538;1" dur="26.0s" repeatCount="indefinite" fill="freeze"/>
 <text x="54.4" y="416.6" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,monospace" font-size="15.5">
 <tspan fill="#3fb950" xml:space="preserve">&#9679; </tspan>
-<tspan fill="#c9d1d9" xml:space="preserve">aberto a oportunidades back-end</tspan>
+<tspan fill="#c9d1d9" xml:space="preserve">open to back-end roles</tspan>
 </text>
 </g>
 <g><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.40385;0.40535;0.86154;0.91538;1" dur="26.0s" repeatCount="indefinite" fill="freeze"/>

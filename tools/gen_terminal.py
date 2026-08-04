@@ -54,22 +54,42 @@ def appear(t_on):
 
 rows = []          # (kind, t_on, content)
 # kind: "cmd" | "out" | "gap"
+# idioma: `python3 tools/gen_terminal.py` (pt-BR) ou `LANG_OUT=en python3 ...`
+LANG_OUT = os.environ.get("LANG_OUT", "pt").lower()
+
+if LANG_OUT == "en":
+    OUT_FILE = "assets/terminal-en.svg"
+    L = {
+        "t1":   "Developer",
+        "t2":   "Systems Analyst",
+        "role": "BSc in Computer Science  •  postgrad in Artificial Intelligence",
+        "open": "open to back-end roles",
+    }
+else:
+    OUT_FILE = "assets/terminal.svg"
+    L = {
+        "t1":   "Desenvolvedor",
+        "t2":   "Analista de Sistemas",
+        "role": "Bacharel em Ciência da Computação  •  pós em Inteligência Artificial",
+        "open": "aberto a oportunidades back-end",
+    }
+
 script = [
     ("cmd", 0.5,  "whoami"),
     ("out", 1.75, [(TEXT, "Matheus Henrique"), (MUTED, "  •  "),
-                   (LIGHT, "Back-End Developer"), (MUTED, " & "), (LIGHT, "CS Student")]),
-    ("out", 2.30, [(MUTED, "Ciência da Computação  •  APIs, arquitetura e código que aguenta produção")]),
+                   (LIGHT, L["t1"]), (MUTED, " & "), (LIGHT, L["t2"])]),
+    ("out", 2.30, [(MUTED, L["role"])]),
     ("gap", 0,    None),
-    ("cmd", 3.40, "cat focus.json"),
+    ("cmd", 3.40, "cat stack.json"),
     ("out", 4.70, [(MUTED, "{")]),
-    ("out", 5.00, [(KEY, '  "apis"'), (MUTED, ": "), (LIGHT, '"RESTful · GraphQL · gRPC"'), (MUTED, ",")]),
+    ("out", 5.00, [(KEY, '  "apis"'), (MUTED, ": "), (LIGHT, '"REST · GraphQL · gRPC"'), (MUTED, ",")]),
     ("out", 5.55, [(KEY, '  "architecture"'), (MUTED, ": "), (LIGHT, '"Hexagonal · DDD · SOLID"'), (MUTED, ",")]),
     ("out", 6.10, [(KEY, '  "data"'), (MUTED, ": "), (LIGHT, '"PostgreSQL · Redis · MySQL"'), (MUTED, ",")]),
     ("out", 6.65, [(KEY, '  "quality"'), (MUTED, ": "), (LIGHT, '"Clean Code · TDD · Observability"')]),
     ("out", 7.15, [(MUTED, "}")]),
     ("gap", 0,    None),
-    ("cmd", 8.10, "./motto --print"),
-    ("out", 9.45, [(GREEN, "✔ "), (TEXT, '"Código limpo hoje, menos dor amanhã."')]),
+    ("cmd", 8.10, "cat status.txt"),
+    ("out", 9.45, [(GREEN, "● "), (TEXT, L["open"])]),
 ]
 
 out = []
@@ -176,7 +196,7 @@ for col, label in segs:
       f'letter-spacing="0.8">{esc(label)}</text>')
     sx += len(label) * 8 + 34
 A(f'<text x="{W-30}" y="{sy+22}" text-anchor="end" font-family="{MONO}" font-size="12" '
-  f'fill="{MUTED}">uptime: always learning</text>')
+  f'fill="{MUTED}">matheushenriqueds1223@gmail.com</text>')
 
 A(f'<rect x="0.9" y="0.9" width="{W-1.8}" height="{H-1.8}" rx="14" fill="none" '
   f'stroke="url(#tEdge)" stroke-width="1.8"/>')
@@ -185,6 +205,7 @@ A('</svg>')
 
 svg = "\n".join(out)
 os.makedirs("assets", exist_ok=True)
-with open("assets/terminal.svg", "w", encoding="utf-8") as f:
+with open(OUT_FILE, "w", encoding="utf-8") as f:
     f.write(svg)
+print(f"-> {OUT_FILE}")
 print(f"terminal.svg bytes={len(svg)} last_y={y:.0f} (H={H})")
