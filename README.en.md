@@ -26,22 +26,21 @@ B.Sc. in Computer Science, currently doing a postgraduate program in Artificial 
 
 Products I build and maintain at Optima. The code is private; I'm happy to walk through the architecture and technical decisions in a call.
 
-### Optima Control
-Management SaaS for pest control companies: work orders, inventory, payables and receivables, integrated billing and PDF certificates with digital signature.
-
-`Next.js` `Prisma` `PostgreSQL` `Playwright` `GitHub Actions` `Railway`
-
-### Portal SST
-Occupational safety in two modules, PPE delivery with digital signature and psychosocial risk assessment (Brazil's NR-1), behind an API gateway with single sign-on.
-
-`Node.js` `FastAPI` `Prisma` `PostgreSQL` `Turborepo`
-
-### Vacation rental ERP
-Operations for short-term rentals: bookings, linen kit assembly, stockroom, cleaning orders and owner payouts, integrated with the PMS and Google.
-
-`Node.js` `Express` `PostgreSQL` `React`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects-dark.en.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects-light.en.svg">
+  <img src="./assets/projects-light.en.svg" width="100%" alt="Optima Control: management SaaS for pest control companies (Next.js, Prisma, PostgreSQL, Playwright). Portal SST: PPE delivery and NR-1 psychosocial risk behind an API gateway (Node.js, FastAPI, Prisma, PostgreSQL). Vacation rental ERP: bookings, linen kits, cleaning and payouts (Express, Sequelize, PostgreSQL, React).">
+</picture>
 
 ## How I build software
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pipeline-dark.en.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pipeline-light.en.svg">
+  <img src="./assets/pipeline-light.en.svg" width="100%" alt="Optima Control pipeline: commit, lint and types, tests, migrations with an RLS check, E2E and deploy to Railway, followed by scheduled backups and a restore drill.">
+</picture>
+
+<br>
 
 | Principle | In practice |
 |:--|:--|
