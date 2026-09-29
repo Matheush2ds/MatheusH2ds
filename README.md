@@ -26,22 +26,21 @@ Bacharel em Ciência da Computação, cursando pós-graduação em Inteligência
 
 Produtos que desenvolvo e mantenho na Optima. O código é privado; apresento arquitetura e decisões técnicas numa conversa.
 
-### Optima Control
-SaaS de gestão para dedetizadoras: ordens de serviço, estoque, contas a pagar e receber, cobrança integrada e certificados em PDF com assinatura digital.
-
-`Next.js` `Prisma` `PostgreSQL` `Playwright` `GitHub Actions` `Railway`
-
-### Portal SST
-Segurança do trabalho em dois módulos, entrega de EPI com assinatura digital e mapeamento de risco psicossocial (NR-1), atrás de um API gateway com login único.
-
-`Node.js` `FastAPI` `Prisma` `PostgreSQL` `Turborepo`
-
-### ERP de temporada
-Operação de aluguel por temporada: reservas, montagem de kits de enxoval, almoxarifado, ordens de limpeza e repasse financeiro, integrado ao PMS e ao Google.
-
-`Node.js` `Express` `PostgreSQL` `React`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/projects-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/projects-light.svg">
+  <img src="./assets/projects-light.svg" width="100%" alt="Optima Control: SaaS de gestão para dedetizadoras (Next.js, Prisma, PostgreSQL, Playwright). Portal SST: entrega de EPI e risco psicossocial NR-1 atrás de um API gateway (Node.js, FastAPI, Prisma, PostgreSQL). ERP de temporada: reservas, kits de enxoval, limpeza e repasse (Express, Sequelize, PostgreSQL, React).">
+</picture>
 
 ## Como eu construo software
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pipeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pipeline-light.svg">
+  <img src="./assets/pipeline-light.svg" width="100%" alt="Pipeline do Optima Control: commit, lint e tipos, testes, migrations com checagem de RLS, E2E e deploy no Railway, seguidos de backup agendado e ensaio de restauração.">
+</picture>
+
+<br>
 
 | Princípio | Na prática |
 |:--|:--|
