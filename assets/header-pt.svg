@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 285" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17"/>
+      <stop offset="100%" stop-color="#070A0F"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1E293B"/>
+    </pattern>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', system-ui, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+      .node-box { fill: #0F172A; stroke: #1E293B; stroke-width: 1.5; }
+      .node-active { fill: #0F172A; stroke: #14B8A6; stroke-width: 1.5; }
+      .wire { stroke: #1E293B; stroke-width: 1.5; fill: none; }
+      .wire-active { stroke: #0D9488; stroke-width: 1.5; stroke-dasharray: 4 4; fill: none; }
+    </style>
+  </defs>
+  <rect x="2" y="2" width="996" height="281" rx="14" fill="url(#bg)" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="520" y="10" width="460" height="265" fill="url(#dots)" opacity="0.6"/>
+  <g transform="translate(56, 62)">
+    <text x="0" y="0" class="mono" font-size="12" font-weight="500" fill="#14B8A6" letter-spacing="1.6">ENGENHARIA DE SOFTWARE  ·  ANÁLISE DE SISTEMAS  ·  GESTÃO DE PROJETOS</text>
+    <text x="0" y="64" class="sans" font-size="52" font-weight="800" fill="#F8FAFC" letter-spacing="-1.2">Matheus Henrique</text>
+    <text x="0" y="106" class="sans" font-size="17" fill="#94A3B8">Fundador da <tspan fill="#F1F5F9" font-weight="600">Optima Sistemas</tspan>. Construo produtos SaaS B2B,</text>
+    <text x="0" y="130" class="sans" font-size="17" fill="#94A3B8">plataformas operacionais, arquitetura back-end e integrações.</text>
+    <text x="0" y="174" class="mono" font-size="12" fill="#64748B" letter-spacing="0.5">Optima Sistemas  ·  Arquitetura de Software  ·  TypeScript  ·  Python  ·  Java</text>
+  </g>
+  <g transform="translate(615, 38)">
+    <path d="M 85 45 L 145 45" class="wire"/>
+    <path d="M 235 45 L 280 45" class="wire"/>
+    <path d="M 190 67 L 190 155" class="wire-active"/>
+    <path d="M 235 177 L 280 177" class="wire"/>
+    <path d="M 322 155 L 322 67" class="wire-active"/>
+    <rect x="5" y="23" width="80" height="44" rx="7" class="node-box"/>
+    <text x="45" y="42" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#E2E8F0">web</text>
+    <text x="45" y="56" text-anchor="middle" class="mono" font-size="9" fill="#64748B">Next · React</text>
+    <rect x="145" y="23" width="90" height="44" rx="7" class="node-active"/>
+    <text x="190" y="42" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#2DD4BF">api</text>
+    <text x="190" y="56" text-anchor="middle" class="mono" font-size="9" fill="#94A3B8">Node · FastAPI</text>
+    <rect x="280" y="23" width="85" height="44" rx="7" class="node-active"/>
+    <text x="322" y="42" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#F8FAFC">database</text>
+    <text x="322" y="56" text-anchor="middle" class="mono" font-size="9" fill="#2DD4BF">PG · SQL · RLS</text>
+    <rect x="145" y="155" width="90" height="44" rx="7" class="node-box"/>
+    <text x="190" y="174" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#E2E8F0">queue</text>
+    <text x="190" y="188" text-anchor="middle" class="mono" font-size="9" fill="#64748B">Redis · Events</text>
+    <rect x="280" y="155" width="85" height="44" rx="7" class="node-box"/>
+    <text x="322" y="174" text-anchor="middle" class="mono" font-size="11" font-weight="600" fill="#E2E8F0">worker</text>
+    <text x="322" y="188" text-anchor="middle" class="mono" font-size="9" fill="#64748B">Jobs · Sync</text>
+    <circle r="3" fill="#2DD4BF">
+      <animateMotion dur="2.4s" repeatCount="indefinite" path="M 85 45 L 145 45"/>
+    </circle>
+    <circle r="3" fill="#2DD4BF">
+      <animateMotion dur="2.4s" repeatCount="indefinite" path="M 235 45 L 280 45"/>
+    </circle>
+    <circle r="3" fill="#2DD4BF">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M 190 67 L 190 155"/>
+    </circle>
+    <circle r="3" fill="#2DD4BF">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M 322 155 L 322 67"/>
+    </circle>
+  </g>
+</svg>
